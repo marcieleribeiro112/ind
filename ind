@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viagem para Prudentópolis</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f2f6f4;color:#263832;line-height:1.7}
+header{background:linear-gradient(135deg,#244b35,#5b9561);color:white;text-align:center;padding:65px 20px}
+header h1{font-size:clamp(30px,5vw,46px);margin-bottom:12px}
+nav{background:white;padding:16px;text-align:center;position:sticky;top:0}
+nav a{color:#397447;text-decoration:none;font-weight:bold;margin:0 12px}
+main{max-width:1000px;margin:auto;padding:25px 18px}
+section{background:white;padding:25px;border-radius:14px;margin-bottom:25px;scroll-margin-top:75px}
+h2{color:#397447;margin-bottom:15px}
+h3{color:#397447;margin:18px 0 8px}
+.hero{width:100%;height:330px;object-fit:cover;border-radius:12px;margin-bottom:15px}
+.info{background:#edf5e9;padding:18px;border-radius:10px;margin:15px 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.card{border:1px solid #dce9d8;border-radius:12px;overflow:hidden;background:#f8fbf6}
+.card img{width:100%;height:180px;object-fit:cover}
+.card div{padding:15px}
+table{width:100%;border-collapse:collapse;margin:15px 0}
+th,td{padding:12px;text-align:left;border-bottom:1px solid #ddd}
+th{background:#397447;color:white}
+.total{font-weight:bold;background:#edf5e9}
+footer{background:#244b35;color:white;text-align:center;padding:25px}
+.small{font-size:13px;color:#65766d}
+@media(max-width:600px){section{padding:16px}.hero{height:220px}nav a{display:inline-block;margin:5px}}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Prudentópolis</h1>
+<p>A terra das cachoeiras gigantes</p>
+</header>
+
+<nav>
+<a href="#destino">Destino</a>
+<a href="#viagem">Viagem</a>
+<a href="#custos">Custos</a>
+<a href="#pontos">Pontos turísticos</a>
+</nav>
+
+<main>
+
+<section id="destino">
+<h2>1. Destino, localização e motivo</h2>
+<img class="hero" src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=85" alt="Cachoeira cercada por vegetação">
+<p><strong>Destino:</strong> Prudentópolis, Paraná.</p>
+<p><strong>Localização:</strong> região Centro-Sul do Paraná.</p>
+<p><strong>Por que escolhemos:</strong> Prudentópolis é conhecida por suas cachoeiras gigantes, trilhas e paisagens naturais. A cidade também possui uma forte influência da cultura ucraniana e é ideal para o turismo ecológico.</p>
+</section>
+
+<section id="viagem">
+<h2>2. Data e duração da viagem</h2>
+<div class="info">
+<p><strong>Saída:</strong> 13 de novembro de 2026.</p>
+<p><strong>Retorno:</strong> 15 de novembro de 2026.</p>
+<p><strong>Duração:</strong> 3 dias e 2 noites.</p>
+</div>
+
+<h2>3. Transporte</h2>
+<p>A viagem será feita de ônibus ou van, saindo de Guarapuava com destino a Prudentópolis.</p>
+<table>
+<tr><th>Descrição</th><th>Valor estimado</th></tr>
+<tr><td>Transporte de ida</td><td>R$ 50,00</td></tr>
+<tr><td>Transporte de volta</td><td>R$ 50,00</td></tr>
+<tr class="total"><td>Total</td><td>R$ 100,00</td></tr>
+</table>
+</section>
+
+<section>
+<h2>4. Hospedagem</h2>
+<p><strong>Hospedagem sugerida:</strong> hotel na região central de Prudentópolis, próximo a restaurantes e serviços.</p>
+<table>
+<tr><th>Descrição</th><th>Valor</th></tr>
+<tr><td>Diária estimada</td><td>R$ 180,00</td></tr>
+<tr><td>Quantidade de diárias</td><td>2</td></tr>
+<tr class="total"><td>Total da hospedagem</td><td>R$ 360,00</td></tr>
+</table>
+
+<h2>5. Alimentação</h2>
+<table>
+<tr><th>Descrição</th><th>Valor</th></tr>
+<tr><td>Alimentação por dia</td><td>R$ 80,00</td></tr>
+<tr><td>Quantidade de dias</td><td>3</td></tr>
+<tr class="total"><td>Total da alimentação</td><td>R$ 240,00</td></tr>
+</table>
+</section>
+
+<section id="pontos">
+<h2>6. Pontos turísticos</h2>
+
+<div class="cards">
+<article class="card">
+<img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=700&q=80" alt="Cachoeira">
+<div>
+<h3>Salto São Francisco</h3>
+<p><strong>Onde:</strong> região rural, aproximadamente 50 km do centro de Prudentópolis.</p>
+<p><strong>Entrada estimada:</strong> gratuita.</p>
+<p>Possui cerca de 196 metros de queda livre e uma paisagem impressionante.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=700&q=80" alt="Queda de água">
+<div>
+<h3>Salto São João</h3>
+<p><strong>Onde:</strong> comunidade de Linha Antônio Olinto, na área rural.</p>
+<p><strong>Entrada estimada:</strong> gratuita.</p>
+<p>Possui cerca de 84 metros de altura e mirantes para contemplação.</p>
+</div>
+</article>
+
+<article class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=80" alt="Paisagem natural">
+<div>
+<h3>Saltos São Sebastião e Mlot</h3>
+<p><strong>Onde:</strong> Linha São Sebastião, na área rural do município.</p>
+<p><strong>Entrada estimada:</strong> R$ 20,00 por pessoa.</p>
+<p>Duas cachoeiras localizadas uma em frente à outra, formando uma paisagem especial.</p>
+</div>
+</article>
+</div>
+</section>
+
+<section id="custos">
+<h2>Orçamento total por pessoa</h2>
+<table>
+<tr><th>Despesa</th><th>Valor</th></tr>
+<tr><td>Transporte ida e volta</td><td>R$ 100,00</td></tr>
+<tr><td>Hospedagem</td><td>R$ 360,00</td></tr>
+<tr><td>Alimentação</td><td>R$ 240,00</td></tr>
+<tr><td>Entradas turísticas</td><td>R$ 20,00</td></tr>
+<tr class="total"><td>TOTAL</td><td>R$ 720,00</td></tr>
+</table>
+<p class="small">Valores estimados para o trabalho escolar. O transporte adicional até as cachoeiras não está incluído.</p>
+</section>
+
+<section>
+<h2>Conclusão</h2>
+<p>Prudentópolis é um destino ideal para quem deseja conhecer cachoeiras gigantes, trilhas e paisagens naturais. A cidade valoriza o turismo ecológico e sua cultura regional, oferecendo uma experiência de contato com a natureza.</p>
+</section>
+
+</main>
+
+<footer>
+<p>Trabalho escolar — Turismo no Paraná</p>
+<p>Destino: Prudentópolis</p>
+</footer>
+
+</body>
+</html>
